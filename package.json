@@ -1,6 +1,6 @@
 {
   "name": "KoreaderNoteToSiYuan",
-  "version": "0.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Koreader 标注笔记导入思源笔记",
   "repository": "https://github.com/function-fun/KoreaderNoteToSiYuan",
