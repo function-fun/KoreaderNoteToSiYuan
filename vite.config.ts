@@ -27,12 +27,10 @@ export default defineConfig({
 
     plugins: [
         svelte(),
-
         vitePluginYamlI18n({
             inDir: 'public/i18n',
             outDir: `${outputDir}/i18n`
         }),
-
         viteStaticCopy({
             targets: [
                 { src: "./README*.md", dest: "./" },

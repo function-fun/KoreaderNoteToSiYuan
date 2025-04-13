@@ -1,11 +1,11 @@
 {
-  "name": "plugin-sample-vite-svelte",
-  "version": "0.3.6",
+  "name": "KoreaderNoteToSiYuan",
+  "version": "0.1",
   "type": "module",
-  "description": "This is a sample plugin based on vite and svelte for Siyuan (https://b3log.org/siyuan)",
-  "repository": "",
+  "description": "Koreader 标注笔记导入思源笔记",
+  "repository": "https://github.com/function-fun/KoreaderNoteToSiYuan",
   "homepage": "",
-  "author": "frostime",
+  "author": "FunctionFun",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development VITE_SOURCEMAP=inline vite build --watch",

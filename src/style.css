@@ -1,0 +1,48 @@
+.kntsy-markdown-btn-groups {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kntsy-btn {
+  width: 240px;
+  height: 48px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  border: none;
+}
+.kntsy-upload-input {
+  display: none;
+}
+.kntsy-upload-btn {
+  display: flex;
+  background-color: #2b7cff;
+  margin-right: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.kntsy-upload-btn:hover {
+  background-color: #276dde;
+}
+.kntsy-copy-btn {
+  background-color: rgb(36, 157, 66);
+}
+.kntsy-copy-btn:hover {
+  background-color: rgb(15, 109, 39);
+}
+.kntsy-markdown-container {
+  padding-top: 20px;
+}
+.kntsy-markdown-lable {
+  margin-bottom: 14px;
+}
+.kntsy-markdown-content {
+  height: 45vh;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}
